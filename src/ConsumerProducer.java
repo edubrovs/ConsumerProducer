@@ -7,10 +7,9 @@ public class ConsumerProducer {
  static ArrayList <Consumer> consumers = new ArrayList <Consumer> ();
  static Producer producer;
  
- 
- //Two shared queues that will be accessed by the Producer's and Consumers' threads:
+ //Two shared queues that will be accessed by the croducer's and consumers' threads:
     
- //timeQueue: stores time messages sent by the Producer to the relevant Consumers
+ //timeQueue: stores time messages sent by the producer to the relevant consumers
  //The producer's time_thread places these messages in the queue
  //Each consumer's time_thread checks the messages on this queue, and retrieves them
  //if they are destined for that particular consumer 
