@@ -55,7 +55,7 @@ public class Producer {
          }         
        }
        
-       //For each eligible consumer_key in stored, registered consumers hashmap:
+       //For each eligible consumer_key in stored, registered consumers HashMap:
        //Adds a message with current timestamp and given consumer_key to timeQueue
        //Messages are only added for consumers that have reported within the last 10 seconds
        void send_date() {    
